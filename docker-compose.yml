@@ -1,0 +1,10 @@
+services:
+  project-template-frontend:
+    build:
+      context: .
+      dockerfile: project-template-frontend.dockerfile
+    restart: always
+    container_name: project-template-frontend
+    env_file: ".env"
+    ports:
+      - "3000:3000"
