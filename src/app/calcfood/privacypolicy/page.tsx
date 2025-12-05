@@ -3,10 +3,10 @@
 import Header from "@/components/base/Header"
 import Screen from "@/components/base/Screen"
 
-export default function Home() {
+export default function CalcfoodPrivacyPolicy() {
   return (
     <Screen headerComponent={ <Header /> }>
-      <p>Projeto frontend de páginas estáticas do Tecnoamf.</p>
+      <p>POLÍTICA DE PRIVACIDADE - Calcfood</p>
     </Screen>
   )
 }

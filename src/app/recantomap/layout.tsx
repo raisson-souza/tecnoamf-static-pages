@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import "./globals.css"
 import GlobalProvider from "@/providers/GlobalProvider"
 import type { Metadata } from "next"
 

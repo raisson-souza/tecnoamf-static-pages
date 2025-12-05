@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import "./globals.css"
 import GlobalProvider from "@/providers/GlobalProvider"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Tecnoamf Static Pages",
-  applicationName: "Tecnoamf Static Pages",
+  title: "Calcfood - Política de Privacidade",
+  applicationName: "Calcfood - Política de Privacidade",
   description: "Developed by Raisson Souza",
   authors: [{ name: "raisson", url: "https://github.com/raisson-souza" }],
   creator: "Raisson Souza",
