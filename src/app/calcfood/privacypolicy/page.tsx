@@ -1,11 +1,13 @@
 "use client";
 
+import Box from "@/components/base/Box";
 import Header from "@/components/base/Header";
 import Screen from "@/components/base/Screen";
 
 export default function CalcfoodPrivacyPolicy() {
   return (
     <Screen headerComponent={<Header />}>
+      <Box.Column style={{ gap: 5, marginTop: 10, marginBottom: 10, paddingLeft: 10, paddingRight: 10 }}>
       <h1>POLÍTICA DE PRIVACIDADE - Calcfood</h1>
       <p>
         <strong>Última atualização:</strong> 05 de dezembro de 2025
@@ -144,6 +146,7 @@ export default function CalcfoodPrivacyPolicy() {
       <footer>
         <p>&copy; 2025 CalcFood - Todos os direitos reservados.</p>
       </footer>
+      </Box.Column>
     </Screen>
   );
 }
